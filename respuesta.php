@@ -6,7 +6,8 @@
 </head>
 <body>
     <?php
-       $pass = [
+     
+    $pass = [
     "jose" => "cordoba",
     "manuel" => "castillo",
     "krusty" => "ean",
