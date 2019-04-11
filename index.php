@@ -5,8 +5,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo 'Pagina en php'; ?></h1>
-    <h2>Bienvenido</h2>
+    <h1><?php echo 'Bienvenido'; ?></h1>
+    <h2>Ingrese su Usuario y Contraseña</h2>
 
     <br>
 
