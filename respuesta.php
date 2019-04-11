@@ -7,22 +7,15 @@
 <body>
     <?php
      
-    $pass = [
-    "jose" => "cordoba",
-    "manuel" => "castillo",
-    "krusty" => "ean",
-    ];
-    if (isset($pass[$_GET['usser']])){
-        if ($pass[$_GET['usser']] == $_GET['pass']){
-            echo 'Bienvenido';
-        }else{
-            echo 'Contraseña incorrecta';
-        }
-    }else{
-        echo 'Usuario no encontrado';
-    }
-    
-    
+   $user = $_GET['user'];
+   $password = $_GET['password'];
+
+   if (($user == "tatiana") AND ($password == "12345")) {
+      echo "Bienvenido ".$user;
+   } else {
+      echo "¡Usuario o contraseña incorrectos!";
+      echo '<br><a href="'.$_SERVER['HTTP_REFERER'].'">Volver</a>';
+   }
     
            
 ?>
