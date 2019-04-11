@@ -23,7 +23,6 @@
            echo "<h2><center> Listado de Usuarios.$user </center></h2>";
            echo "<h3><center> Listado por defecto.$user </center></h3>";
            
-           print($user);
    
            
 ?>
