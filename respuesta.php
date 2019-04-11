@@ -17,7 +17,7 @@
    }
     
    if (isset($user[$_POST['user']])){
-       if ($user[$_POST['user']]== $_POST['password]){
+       if ($user[$_POST['user']]== $_POST['password']){
            session_star();
            
            echo! "<h2><center> Listado de Usuarios </center></h2>";
