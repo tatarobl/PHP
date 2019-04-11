@@ -23,7 +23,7 @@
            echo! "<h2><center> Listado de Usuarios </center></h2>";
            echo! "<h3><center> Listado por defecto </center></h3>";
            
-           print_r($user);
+           print($user);
            
 ?>
 </body>
