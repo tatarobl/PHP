@@ -9,7 +9,7 @@
    $user = $_GET['user'];
    $password = $_GET['password'];
 
-   if (($user == "tatiana") AND ($password == "12345")) {
+   if ((($user == "tatiana") AND ($password == "12345")) ||(($user == "vanessa") AND ($password == "12345"))) {
       echo "Bienvenido ".$user;
    } else {
       echo "¡Usuario o contraseña incorrectos!";
