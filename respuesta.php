@@ -21,15 +21,7 @@
         echo 'Usuario no encontrado';
     }
     
-    if (isset($usser[$_POST['usser']])){
-       if ($usser[$_POST['usser']]== $_POST['pass']){
-           session_star();
-           
-           echo "<h2><center> Listado de Usuarios.user </center></h2>";
-           echo "<h3><center> Listado por defecto </center></h3>";
-           
-           print_r($usser);
-
+    
     
            
 ?>
