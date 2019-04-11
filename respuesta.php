@@ -6,22 +6,15 @@
 </head>
 <body>
     <?php
+   $user = $_GET['user'];
+   $password = $_GET['password'];
 
-    $pass = [
-    "tatiana" => "robles",
-    "vanessa" => "rodriguez",
-    ];
-
-    if (isset($pass[$_GET['usser']])){
-        if ($pass[$_GET['usser']] == $_GET['pass']){
-            echo 'Sesion iniciada';
-        }else{
-            echo 'Contraseña incorrecta';
-        }
-    }else{
-        echo 'Datos incorrectos';
-    }
-
-    ?>
+   if (($user == "tatiana") AND ($password == "12345")) {
+      echo "Bienvenido ".$user;
+   } else {
+      echo "¡Usuario o contraseña incorrectos!";
+      echo '<br><a href="'.$_SERVER['HTTP_REFERER'].'">Volver</a>';
+   }
+?>
 </body>
 </html>
