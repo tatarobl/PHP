@@ -11,8 +11,8 @@
     <br>
 
     <form action="respuesta.php" method="get">
-        <input type="text" name="usser" id="usser" placeholder="Usuario">
-        <input type="password" name="pass" id="pass" placeholder="Contraseña">
+        <input type="text" name="user" id="user" placeholder="Usuario">
+        <input type="password" name="password" id="password" placeholder="Contraseña">
         <input type="submit" value="Enviar">
     </form>
 </body>
